@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{4DFF38F7-6AC7-4197-9813-3908ABBE3E10}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FB_Ads_Webhook Status">
+    <Files>
+      <File FileName="FB_Ads_Webhook/Controllers/ValuesController.cs" Line="40" Column="35" />
+      <File FileName="FB_Ads_Webhook/Program.cs" Line="1" Column="1" />
+      <File FileName="FB_Ads_Webhook/Startup.cs" Line="1" Column="1" />
+      <File FileName="FB_Ads_Webhook/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="FB_Ads_Webhook Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FB__Ads__Webhook PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
