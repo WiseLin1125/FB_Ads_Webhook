@@ -15,13 +15,9 @@ namespace FB_Ads_Webhook.Controllers
         [HttpGet]
         public string Get()
         {
-            HttpContext.Request.Query["hub.challenge"].ToString();
-            string returnValue = string.Empty;
-
+            string returnValue = HttpContext.Request.Query["hub.challenge"].ToString()??string.Empty;
             return returnValue;
         }
-
-
 
         // GET api/values/5
         [HttpGet("{id}")]
