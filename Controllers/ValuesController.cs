@@ -13,11 +13,11 @@ namespace FB_Ads_Webhook.Controllers
     {
         // GET api/values
         [HttpGet]
-        public string Get(string hub_challenge)
+        public string Get(string challenge)
         {
             string returnValue = string.Empty;
-            if (!string.IsNullOrEmpty(hub_challenge))
-                returnValue = hub_challenge;
+            if (!string.IsNullOrEmpty(challenge))
+                returnValue = challenge;
             return returnValue;
         }
 
