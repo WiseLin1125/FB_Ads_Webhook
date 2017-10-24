@@ -13,17 +13,12 @@ namespace FB_Ads_Webhook.Controllers
     {
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public string Get(string hub_challenge)
         {
-            return new string[] { "value2", "value3" };
+            return hub_challenge;
         }
 
-        //[HttpGet]
-        //public string Authenticate1()
-        //{
 
-        //    return "success";
-        //}
 
         // GET api/values/5
         [HttpGet("{id}")]
