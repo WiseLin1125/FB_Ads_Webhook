@@ -96,13 +96,12 @@ namespace FB_Ads_Webhook.Controllers
         {
             AuthenticationResponse response = new AuthenticationResponse();
 
-            if (auth == null)
+            if (auth != null)
             {
                 using (WebClient wc = new WebClient())
                 {
                     string temp = JsonConvert.SerializeObject(auth);
-                    wc.Headers.Add("Content-Type", "application/json");
-                    var result = wc.UploadString("http://localhost:5000/api/values/1", "GET", JsonConvert.SerializeObject(auth));
+                    var result = wc.DownloadString("http://localhost:5000/api/values/1?test"+JsonConvert.SerializeObject(auth));
                 }
             }
             return JsonConvert.SerializeObject(response);
