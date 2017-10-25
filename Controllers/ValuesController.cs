@@ -101,7 +101,7 @@ namespace FB_Ads_Webhook.Controllers
                 using (WebClient wc = new WebClient())
                 {
                     string temp = JsonConvert.SerializeObject(auth);
-                    var result = wc.DownloadString("http://localhost:5000/api/values/1?test"+JsonConvert.SerializeObject(auth));
+                    var result = wc.DownloadString("https://utility-183509.appspot.com/api/values/1?test"+JsonConvert.SerializeObject(auth));
                 }
             }
             return JsonConvert.SerializeObject(response);
