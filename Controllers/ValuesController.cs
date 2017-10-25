@@ -76,14 +76,14 @@ namespace FB_Ads_Webhook.Controllers
                 string temp = JsonConvert.SerializeObject(fw);
                 //wc.Headers.Add("Content-Type", "application/json");
                 //var temp2 = "http://localhost:5000/api/values/1?para=" + JsonConvert.SerializeObject(fw);
-                var result = wc.DownloadString("http://localhost:5000/api/values?para=" + JsonConvert.SerializeObject(fw));
+                var result = wc.DownloadString("https://utility-183509.appspot.com/api/values?para=" + JsonConvert.SerializeObject(fw));
             }
 
             using (WebClient wc = new WebClient())
             {
                 string temp = JsonConvert.SerializeObject(auth);
                 wc.Headers.Add("Content-Type", "application/json");
-                var result = wc.UploadString("http://localhost:5000/api/values", "POST",
+                var result = wc.UploadString("https://utility-183509.appspot.com/api/values", "POST",
                                              JsonConvert.SerializeObject(fw));
             }
 
