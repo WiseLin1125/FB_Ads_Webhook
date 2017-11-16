@@ -36,7 +36,7 @@ namespace FB_Ads_Webhook.Controllers
                 @object = "page",
                 fields = "leadgen",
                 verify_token = "1982944731975237|zfy5fBST0kAm6A43F07IMCXCgwc",
-                callback_url = "http://localhost:5000/authenticate/gettoken"
+                callback_url = "http://35.189.169.186/authenticate/gettoken"
             };
 
             ValueClass valueClass = new ValueClass
@@ -83,7 +83,7 @@ namespace FB_Ads_Webhook.Controllers
             {
                 string temp = JsonConvert.SerializeObject(auth);
                 wc.Headers.Add("Content-Type", "application/json");
-                var result = wc.UploadString("https://utility-183509.appspot.com/api/values", "POST",
+                var result = wc.UploadString("http://35.189.169.186/api/values", "POST",
                                              JsonConvert.SerializeObject(fw));
             }
 
@@ -101,7 +101,7 @@ namespace FB_Ads_Webhook.Controllers
                 using (WebClient wc = new WebClient())
                 {
                     string temp = JsonConvert.SerializeObject(auth);
-                    var result = wc.DownloadString("https://utility-183509.appspot.com/api/values/1?test"+JsonConvert.SerializeObject(auth));
+                    var result = wc.DownloadString("http://35.189.169.186/api/values/1?test"+JsonConvert.SerializeObject(auth));
                 }
             }
             return JsonConvert.SerializeObject(response);
