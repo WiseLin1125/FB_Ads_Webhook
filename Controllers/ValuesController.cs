@@ -8,6 +8,35 @@ using System.Net;
 
 namespace FB_Ads_Webhook.Controllers
 {
+    [Route("api/[controller]")]
+    public class ValuesController : Controller
+    {
+        // GET api/values
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            var test = HttpContext.Request.QueryString.Value;
+            return new string[] { "value1", "value2" };
+        }
+
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public string Get(string id)
+        {
+            var test = HttpContext.Request.QueryString.Value;
+            return id;
+        }
+
+
+        // POST api/values
+        [HttpPost]
+        public void Post([FromBody]FacebookWebhook fw)
+        {
+            var test = fw;
+
+        }
+    }
+
     [Route("Authenticate/[controller]")]
     public class GetTokenController : Controller
     {
@@ -109,34 +138,7 @@ namespace FB_Ads_Webhook.Controllers
 
     }
 
-    [Route("api/[controller]")]
-    public class ValuesController : Controller
-    {
-        // GET api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            var test = HttpContext.Request.QueryString.Value;
-            return new string[] { "value1", "value2" };
-        }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(string id)
-        {
-            var test = HttpContext.Request.QueryString.Value;
-            return id;
-        }
-
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]FacebookWebhook fw)
-        {
-            var test = fw;
-
-        }
-    }
 
     public class FacebookWebhook
     {

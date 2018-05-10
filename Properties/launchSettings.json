@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:55556/",
+      "applicationUrl": "http://localhost:5001/",
       "sslPort": 0
     }
   },
@@ -19,7 +19,7 @@
     "FB_Ads_Webhook": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/Values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": ""
       },

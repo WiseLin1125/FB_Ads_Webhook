@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{D1E111C4-66A5-4561-B260-6ABB5D78329C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+    <Files>
+      <File FileName="Controllers/ValuesController.cs" Line="8" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="19" Column="24" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="app.yaml" Line="1" Column="1" />
+      <File FileName=".gitignore" Line="1" Column="1" />
+      <File FileName="FB_Ads_Webhook.userprefs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FB__Ads__Webhook PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

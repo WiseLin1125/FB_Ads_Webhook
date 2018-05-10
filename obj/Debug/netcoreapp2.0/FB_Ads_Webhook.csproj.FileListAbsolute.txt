@@ -3,7 +3,6 @@
 /Users/wiselin/FB_Ads_Webhook/bin/Debug/netcoreapp2.0/FB_Ads_Webhook.runtimeconfig.dev.json
 /Users/wiselin/FB_Ads_Webhook/bin/Debug/netcoreapp2.0/FB_Ads_Webhook.dll
 /Users/wiselin/FB_Ads_Webhook/bin/Debug/netcoreapp2.0/FB_Ads_Webhook.pdb
-/Users/wiselin/FB_Ads_Webhook/obj/Debug/netcoreapp2.0/FB_Ads_Webhook.csprojResolveAssemblyReference.cache
 /Users/wiselin/FB_Ads_Webhook/obj/Debug/netcoreapp2.0/FB_Ads_Webhook.csproj.CoreCompileInputs.cache
 /Users/wiselin/FB_Ads_Webhook/obj/Debug/netcoreapp2.0/FB_Ads_Webhook.AssemblyInfoInputs.cache
 /Users/wiselin/FB_Ads_Webhook/obj/Debug/netcoreapp2.0/FB_Ads_Webhook.AssemblyInfo.cs
