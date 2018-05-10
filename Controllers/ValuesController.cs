@@ -76,7 +76,7 @@ namespace FB_Ads_Webhook.Controllers
                 string temp = JsonConvert.SerializeObject(fw);
                 //wc.Headers.Add("Content-Type", "application/json");
                 //var temp2 = "http://localhost:5000/api/values/1?para=" + JsonConvert.SerializeObject(fw);
-                var result = wc.DownloadString("http://35.189.169.186/api/values?para=" + JsonConvert.SerializeObject(fw));
+                var result = wc.DownloadString("http://fbleadads.urad.expert/api/values?para=" + JsonConvert.SerializeObject(fw));
             }
 
             //using (WebClient wc = new WebClient())
@@ -101,7 +101,7 @@ namespace FB_Ads_Webhook.Controllers
                 using (WebClient wc = new WebClient())
                 {
                     string temp = JsonConvert.SerializeObject(auth);
-                    var result = wc.DownloadString("http://35.189.169.186/api/values/1?test"+JsonConvert.SerializeObject(auth));
+                    var result = wc.DownloadString("http://fbleadads.urad.expert/api/values/1?test"+JsonConvert.SerializeObject(auth));
                 }
             }
             return JsonConvert.SerializeObject(response);
